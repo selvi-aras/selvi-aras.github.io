@@ -22,7 +22,6 @@ margin-right: 10px;
 h2:after {
 margin-left: 10px;
 }  */
-
 h2 {
     /* Default h2 styles */
   }
@@ -34,8 +33,9 @@ h2 {
   .h2-with-line:after {
     content: "";
     flex: 1 1;
-    border-bottom: 1px solid;
+    border-bottom: 2px solid lightgray;
     margin: auto;
+    border-color: lightgray; /* Add this line */
   }
   .h2-with-line:before {
     margin-right: 10px;
@@ -43,7 +43,6 @@ h2 {
   .h2-with-line:after {
     margin-left: 10px;
   }
-
 linedtitle {
 display: flex;
 flex-direction: row;
@@ -52,8 +51,9 @@ linedtitle:before,
 linedtitle:after {
 content: "";
 flex: 1 1;
-border-bottom: 1px solid;
+border-bottom: 2px solid lightgray;
 margin: auto;
+border-color: lightgray; /* Add this line */
 }
 linedtitle:before {
 margin-right: 10px;
