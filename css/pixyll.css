@@ -4,3 +4,60 @@
 /*# sourceMappingURL=pixyll.css.map */
 /* display:block;width:200px;max-width:100% #change the bio-picture{display:block;width:200px;max-width:80%} with this if doesn't work display:none;position:relative */
 /* bio-picture{display: block; margin = 0 auto; width:200px;max-width:80%} */
+
+/* h2 {
+display: flex;
+flex-direction: row;
+}
+h2:before,
+h2:after {
+content: "";
+flex: 1 1;
+border-bottom: 1px solid;
+margin: auto;
+}
+h2:before {
+margin-right: 10px;
+}
+h2:after {
+margin-left: 10px;
+}  */
+
+h2 {
+    /* Default h2 styles */
+  }
+  .h2-with-line {
+    display: flex;
+    flex-direction: row;
+  }
+  .h2-with-line:before,
+  .h2-with-line:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+  }
+  .h2-with-line:before {
+    margin-right: 10px;
+  }
+  .h2-with-line:after {
+    margin-left: 10px;
+  }
+
+linedtitle {
+display: flex;
+flex-direction: row;
+}
+linedtitle:before,
+linedtitle:after {
+content: "";
+flex: 1 1;
+border-bottom: 1px solid;
+margin: auto;
+}
+linedtitle:before {
+margin-right: 10px;
+}
+linedtitle:after {
+margin-left: 10px;
+}
