@@ -61,3 +61,17 @@ margin-right: 10px;
 linedtitle:after {
 margin-left: 10px;
 }
+
+.only-on-dark {
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .only-on-dark {
+    display: inline-block;
+  }
+  
+  .only-on-light {
+    display: none;
+  }
+}
